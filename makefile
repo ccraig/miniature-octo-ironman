@@ -1,5 +1,8 @@
 all: helloGitHub
 
+run: helloGitHub
+	java helloGithub
+
 helloGitHub: person.class
 	javac main.java
 
